@@ -10,6 +10,6 @@ The travelling salesman problem is a very widely known computational problem in 
 
 In the brute force method, a straightforward approach is implemented in which we iterate through every permutation of the cities and calculate the total distance. The permutation with the shortest distance is returned as the solution. Although this algorithm ensures that the optimal solution is found, its exponential time complexity means that as we reach large instances of the TSP it becomes more and more impractical to use. 
 
-## Hill Climbin Algorithm
+## Hill Climbing Algorithm
 
 We can compromise finding the optimal solution - which is time consuming and computationally extensive - by instead finding the best possible solution using optimization techniques. One such widely used technique is the hill climbing algorithm. 
